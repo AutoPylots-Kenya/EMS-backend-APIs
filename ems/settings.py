@@ -181,19 +181,19 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 JAZZMIN_SETTINGS = {
     # title of the window (Will default to current_admin_site.site_title if absent or None)
-    "site_title": "Stejos Tours",
+    "site_title": "Employee Management System",
 
     # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_header": "Stejos Tours",
+    "site_header": "Employee Management System",
 
     # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)
-    "site_brand": "Stejos Tours",
+    "site_brand": "Employee Management System",
 
     # Logo to use for your site, must be present in static files, used for brand on top left
-    "site_logo": "images/stejos.svg",
+    "site_logo": "images/ems.svg",
 
     # Logo to use for your site, must be present in static files, used for login form logo (defaults to site_logo)
-    "login_logo": "images/stejos.svg",
+    "login_logo": "images/ems.svg",
 
     # Logo to use for login form in dark themes (defaults to login_logo)
     "login_logo_dark": None,
@@ -202,13 +202,13 @@ JAZZMIN_SETTINGS = {
     "site_logo_classes": "img-circle",
 
     # Relative path to a favicon for your site, will default to site_logo if absent (ideally 32x32 px)
-    "site_icon": "images/stejos-icon.svg",
+    "site_icon": "images/ems.svg",
 
     # Welcome text on the login screen
-    "welcome_sign": "Welcome to Stejos Tours & Travel",
+    "welcome_sign": "Welcome to Employee Management System",
 
     # Copyright on the footer
-    "copyright": "Stejos Tours & Travel",
+    "copyright": "Employee Management System © 2025",
 
     # List of model admins to search from the search bar, search bar omitted if excluded
     # If you want to use a single search field you dont need to use a list, you can use a simple string 
